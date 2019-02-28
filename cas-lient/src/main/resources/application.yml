@@ -1,0 +1,10 @@
+cas:
+  server-url-prefix: http://cas.server.com:8080/cas
+  server-login-url: http://cas.server.com:8080/cas/login
+  client-host-url: http://192.168.4.164:9003
+  validation-type: cas
+  use-session: true
+server:
+  port: 9003
+
+casClientLogoutUrl: https://cas.server.com:8443/cas/logout?service=http://192.168.4.164:9003/logout/success
